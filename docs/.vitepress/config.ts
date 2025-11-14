@@ -72,6 +72,12 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
         { text: "Export data", link: "export-data" },
       ],
     },
+    {
+      text: "Technical Documentation",
+      items: [
+        { text: "Architecture Overview", link: "architecture" },
+      ],
+    },
   ];
 }
 
